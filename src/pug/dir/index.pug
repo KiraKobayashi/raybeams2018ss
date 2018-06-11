@@ -1,0 +1,554 @@
+extends /layout/layout
+
+block data
+  -
+    page = index
+
+block css
+  link(href=CSS_DIR + 'index.css' rel='stylesheet' type='text/css')
+
+block script
+  script(src=JS_DIR + 'index.js' type='text/javascript' charset='UTF-8')
+
+block content
+  #home 
+    .wrapper
+      //- No.1
+      .No1.clearfix
+        .header
+          .vol
+            p ▶︎ Vol.1  ▶︎ Vol.2  ▶︎ Vol.3  ▶︎ Vol.4
+          .ttl
+            p Ray BEAMS 2018 SPRING/SUMMER
+        .images1
+          .main1
+            img(src="http://placehold.jp/1406x711.png")
+          .with
+            img(src="http://placehold.jp/485x319.png")
+          .with2
+            img(src="http://placehold.jp/182x182.png")
+        .comment1
+          .logo1
+            img(src="http://placehold.jp/75x59.png")
+          .sentence1
+            p
+              |デニムの強さが強調されすぎないようにインナーにレース使い＋足元はヒールと女性らしいアイテムを取り入れて
+              br
+              |強調のバランス感を楽しんだり、逆にオールラウンダーなデニムに栄える色柄使いのコーディネートもおススメ。
+    
+      .No9.clearfix
+        .sidephoto1
+          .main2
+            img(src="http://placehold.jp/264x376.png")
+          .price1
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY                              
+        .images2
+          .main3
+            img(src="http://placehold.jp/367x580.png")
+          .main3-1
+            img(src="http://placehold.jp/367x580.png")
+              
+        .frame1
+          p south for F/Ringer T-shirts
+          p 
+           |ダミー。デニムの強さが強調されすぎないように
+           br
+           |インナーにレース使い＋足元はヒールと女性らしいアイテム。
+           br
+           |強調されすぎないように！
+
+      //- No.2
+      .No2.clearfix
+        .sidephoto2
+          .main4
+            img(src="http://placehold.jp/440x614.png")
+          .price2
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY      
+            //- right
+        .sidephoto3
+          .main5
+            img(src="http://placehold.jp/497x750.png")
+          .frame2
+            p CHAMPION x Ray BEAMS / ONE-PIECE
+            p 
+             |ダミー。デニムの強さが強調されすぎないように
+             br
+             |インナーにレース使い＋足元はヒールと女性らしいアイテム。
+             br
+             |強調されすぎないように！
+            
+      //-No.3    
+      .No3
+        .images3
+          img(src="http://placehold.jp/1163x583.png")
+        .sidephoto4
+          img(src="http://placehold.jp/300x450.png")
+          
+        .price3
+          .pd1
+            .product
+              ul
+                |GILET(Ray BEAMS)
+                br
+                |¥12,000 +tax 
+            .buy
+              |BUY
+          .pd2
+            .product    
+              ul
+                |ONE-PIECE(Chika Kisada)
+                br
+                |¥69,000 +tax 
+            .buy
+              |BUY
+          .pd3
+            .product
+              ul
+                |HOODIE(Champion x Ray BEAMS)
+                br
+                |¥9,500 +tax 
+            .buy
+              |BUY
+          .pd4
+            .product    
+              ul
+                |PIERCED EARRINGS(KLAMIR)
+                br
+                |¥6,500 +tax 
+            .buy
+              |BUY
+          .pd5
+            .product
+              ul
+                |WAIST BAG(wiffle)
+                br
+                |¥5,000 +tax 
+            .buy
+              |BUY
+          .pd6
+            .product      
+              ul
+                |SHOES(PLAKTON)
+                br
+                |¥9,800 +tax 
+            .buy
+              |BUY                  
+        .sidephoto5
+          img(src="http://placehold.jp/480x625.png")
+          //- left
+      //- No.4  
+      .No4 
+        .wrapper2
+        .logo2
+          img(src="http://placehold.jp/50x70.png")
+        .images4       
+          .main6
+            img(src="http://placehold.jp/465x700.png")
+          .main7
+            img(src="http://placehold.jp/465x700.png")
+          .with3
+            img(src="http://placehold.jp/48x220.png")
+        .comment3
+          .sentence2
+          .price4
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+          .price4-1      
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                  |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY      
+            
+      .No5
+        .wrapper2
+        .logo3
+          img(src="http://placehold.jp/50x70.png")
+        .images5
+          .main8
+            img(src="http://placehold.jp/466x700.png")
+          .main9
+            img(src="http://placehold.jp/466x700.png")
+          .with4
+            img(src="http://placehold.jp/290x50.png")
+        .comment4
+          .sentence3
+            p 
+             |ダミー。デニムの強さが強調されすぎないようにインナーにレース使い＋足元はヒールと女性らしいアイテム。
+             br
+             |強調されすぎないように！
+          .price5
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY        
+                                              
+      .No6
+        .images6
+          .main10
+            img(src="http://placehold.jp/1270x700.png")
+        .main11
+          .sidephoto6
+            img(src="http://placehold.jp/320x255.png") 
+          .price6
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY 
+          .main12
+            img(src="http://placehold.jp/460x675.png")      
+      
+      .No7
+        .logo4
+          img(src="http://placehold.jp/85x85.png")
+        .main13
+          img(src="http://placehold.jp/557x838.png")
+        .main14
+          img(src="http://placehold.jp/368x533.png")
+        .price7
+          .pd1
+            .product
+              ul
+                |GILET(Ray BEAMS)
+                br
+                |¥12,000 +tax 
+            .buy
+              |BUY
+          .pd2
+            .product    
+              ul
+                |ONE-PIECE(Chika Kisada)
+                br
+                |¥69,000 +tax 
+            .buy
+              |BUY
+          .pd3
+            .product
+              ul
+                |HOODIE(Champion x Ray BEAMS)
+                br
+                |¥9,500 +tax 
+            .buy
+              |BUY
+          .pd4
+            .product    
+              ul
+                |PIERCED EARRINGS(KLAMIR)
+                br
+                |¥6,500 +tax 
+            .buy
+              |BUY
+          .pd5
+            .product
+              ul
+                |WAIST BAG(wiffle)
+                br
+                |¥5,000 +tax 
+            .buy
+              |BUY
+          .pd6
+            .product      
+              ul
+                |SHOES(PLAKTON)
+                br
+                |¥9,800 +tax 
+            .buy
+              |BUY 
+        .frame3
+          p CHAMPION x Ray BEAMS / POCKET T-SHIRTS
+          p 
+           |ダミー。デニムの強さが強調されすぎないように
+           br
+           |インナーにレース使い＋足
+           br
+           |元はヒールと女性らしいアイテム。
+           br
+           |強調されすぎないように！
+          
+      
+      .No8
+        .images7
+          img(src="http://placehold.jp/985x656.png")
+        .with5
+        .frame4
+          .price7
+        .sidephoto7
+         img(src="http://placehold.jp/486x736.png")
+      
+      .logo5
+      img(src="http://placehold.jp/282x76.png")
+    
+    .wrapper4
+      .main15
+        img(src="http://placehold.jp/340x513.png")
+      .frame5
+        .sentence4
+          .logo6
+            img(src="http://placehold.jp/194x57.png")
+          .comment5
+        .share
+          .comment6
+          .logo7
+            img(src="http://placehold.jp/130x60.png")
+          .logo8
+            img(src="http://placehold.jp/130x60.png")
+      
+      .contents
+        .images8
+          .main16
+           .first
+             img(src="http://placehold.jp/282x208.png")
+           .comment7  
+          .main17
+           .second
+             img(src="http://placehold.jp/282x208.png")
+           .comment8
+          .main18
+           .third
+             img(src="http://placehold.jp/282x208.png")
+           .comment9
+          .main19
+           .forth
+             img(src="http://placehold.jp/282x208.png")
+           .comment10
+      
+      .main20
+        .logo9
+          img(src="http://placehold.jp/130x84.png")
+        .comment11
+        .logo10
+          img(src="http://placehold.jp/52x18.png")
+        .rink
+          .rink1
+          .rink2
+          .rink3      
+        .logo11 
+          img(src="http://placehold.jp/29x22.png")
+        .comment12
+            
+        
+    
+    
