@@ -8,140 +8,652 @@ block css
   link(href=CSS_DIR + 'sp.css' rel='stylesheet' type='text/css')
 
 block script
-  script(src=JS_DIR + 'index.js' type='text/javascript' charset='UTF-8')
+  script(src=JS_DIR + 'sp.js' type='text/javascript' charset='UTF-8')
 
 block content
-  #home
+  #home 
     .wrapper
       //- No.1
-      .No1
+      .No1.clearfix
         .header
           .vol
-            p sp
+            a
+              | ▶︎ Vol.1 
+              a
+              | ▶︎ Vol.2 
+              a
+              | ▶︎ Vol.3
+              a
+              |  ▶︎ Vol.4
           .ttl
+            p Ray BEAMS 2018 SPRING/SUMMER
         .images1
           .main1
-            img(src='http://placehold.jp/320x480.png')
+            img(src="/assets/imgaes/top.jpg")
           .with
+            img(src="/assets/imgaes/SVG/top3_image.svg")
           .with2
+            img(src="/assets/imgaes/SVG/top2_image.svg")
+          .with6
+            img(src="")
+          .with7
+            img(src="/assets/imgaes/SVG/top4_image.svg")
         .comment1
           .logo1
+            img(src="/assets/imgaes/SVG/top5_image.svg")
           .sentence1
+            p
+              |デニムの強さが強調されすぎないようにインナーにレース使い＋足元はヒールと女性らしいアイテムを取り入れて
+              br
+              |強調のバランス感を楽しんだり、逆にオールラウンダーなデニムに栄える色柄使いのコーディネートもおススメ。
+    
+      .No9.clearfix
         .sidephoto1
           .main2
+            img(src="/assets/imgaes/1-4.jpg")
           .price1
-            p 
-              |No.8デニムの強さが強調されすぎないように
-              br
-              |インナーにレース使い＋足元はヒールと女性らしいアイテム。強調されすぎないように。
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY                              
         .images2
           .main3
+            img(src="/assets/imgaes/1-2.jpg")
           .main3-1
+            img(src="/assets/imgaes/1-1.jpg")
+              
         .frame1
-          .south-forF
+          p south for F/Ringer T-shirts
+          p 
+           |ダミー。デニムの強さが強調されすぎないように
+           br
+           |インナーにレース使い＋足元はヒールと女性らしいアイテム。
+           br
+           |強調されすぎないように！
 
       //- No.2
-      .No2
+      .No2.clearfix
         .sidephoto2
-          .main3
+          .main4
+            img(src="/assets/imgaes/2-2.jpg")
           .price2
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY      
             //- right
         .sidephoto3
-          .main4
-          .frame2
-          
-      .No3//- No.3
-        .images3
-        .sidephoto4
-          //- right
-        .price3
-        .sidephoto5
-          //- left
-        
-        
-      .No4 //- No.4
-        .wrapper2
-        .logo2
-        .images4       
           .main5
-          .main6
+            img(src="/assets/imgaes/2-1.jpg")
+          .frame2
+            p CHAMPION x Ray BEAMS / ONE-PIECE
+            p 
+             |ダミー。デニムの強さが強調されすぎないように
+             br
+             |インナーにレース使い＋足元はヒールと女性らしいアイテム。
+             br
+             |強調されすぎないように！
+            
+      //-No.3    
+      .No3.clearfix
+        .images3
+          .main21
+            img(src="http://placehold.jp/1163x583.png")
+          .sidephoto4
+            img(src="/assets/imgaes/3-1.jpg")  
+            .price3
+              .pd1
+                .product
+                  ul
+                    |GILET(Ray BEAMS)
+                    br
+                    |¥12,000 +tax 
+                .buy
+                  |BUY
+              .pd2
+                .product    
+                  ul
+                    |ONE-PIECE(Chika Kisada)
+                    br
+                    |¥69,000 +tax 
+                .buy
+                  |BUY
+              .pd3
+                .product
+                  ul
+                    |HOODIE(Champion x Ray BEAMS)
+                    br
+                    |¥9,500 +tax 
+                .buy
+                  |BUY
+              .pd4
+                .product    
+                  ul
+                    |PIERCED EARRINGS(KLAMIR)
+                    br
+                    |¥6,500 +tax 
+                .buy
+                  |BUY
+              .pd5
+                .product
+                  ul
+                    |WAIST BAG(wiffle)
+                    br
+                    |¥5,000 +tax 
+                .buy
+                  |BUY
+              .pd6
+                .product      
+                  ul
+                    |SHOES(PLAKTON)
+                    br
+                    |¥9,800 +tax 
+                .buy
+                  |BUY                  
+        .sidephoto5
+          img(src="/assets/imgaes/3-2.jpg")
+          //- left
+      //- No.4  
+      .No4.clearfix
+        .wrapper2
+          .logo2
+            img(src="/assets/imgaes/SVG/4_image.svg")
           .with3
-        .comment3
-          .sentence2
-          .price4
-      .No5//- No.5
+            img(src="/assets/imgaes/SVG/4-1_image.svg")
+          .images4       
+            .main6
+              img(src="/assets/imgaes/4-2.jpg")
+            .main7
+              img(src="/assets/imgaes/4-1.jpg")
+
+          .comment3
+            .sentence2
+              p 
+               |ダミー。デニムの強さが強調されすぎないようにインナーにレース使い＋足元はヒールと女性らしいアイテム。
+               br
+               |強調されすぎないように！
+            .price4
+              .pd1
+                .product
+                  ul
+                    |GILET(Ray BEAMS)
+                    br
+                    |¥12,000 +tax 
+                .buy
+                  |BUY
+              .pd2
+                .product    
+                  ul
+                    |ONE-PIECE(Chika Kisada)
+                    br
+                    |¥69,000 +tax 
+                .buy
+                  |BUY
+              .pd3
+                .product
+                  ul
+                    |HOODIE(Champion x Ray BEAMS)
+                    br
+                    |¥9,500 +tax 
+                .buy
+                  |BUY
+            .price4-1      
+              .pd4
+                .product    
+                  ul
+                    |PIERCED EARRINGS(KLAMIR)
+                    br
+                    |¥6,500 +tax 
+                .buy
+                  |BUY
+              .pd5
+                .product
+                  ul
+                    |WAIST BAG(wiffle)
+                    br
+                    |¥5,000 +tax 
+                .buy
+                    |BUY
+              .pd6
+                .product      
+                  ul
+                    |SHOES(PLAKTON)
+                    br
+                    |¥9,800 +tax 
+                .buy
+                  |BUY      
+            
+      .No5.wrapper2
         .logo3
+          img(src="/assets/imgaes/SVG/5_image.svg")
         .images5
-          .main7
           .main8
+            img(src="/assets/imgaes/5-2.jpg")
+          .butubutu
+            img(src="/assets/imgaes/SVG/butubutu_image.svg")
+          .main9
+            img(src="/assets/imgaes/5-1.jpg")
           .with4
+            img(src="/assets/imgaes/SVG/5-1_image.svg")
         .comment4
           .sentence3
+            p 
+             |ダミー。デニムの強さが強調されすぎないようにインナーにレース使い＋足元はヒールと女性らしいアイテム。
+             br
+             |強調されすぎないように！
           .price5
-    
-    .wrapper4
-      .No6//- No.6
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+          .price5-1      
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY        
+                                              
+      .No6.clearfix
         .images6
-          .main9
-        .wrapper3
-        .main10
-        .sidephoto6
-          .price6
-          .main11      
-      
-      .No7//- No.7
-        .logo4
+          .main10
+            img(src="/assets/imgaes/6.jpg")
         .main11
-        .main12
-        .price
-        .frame3
+          .sidephoto6
+            img(src="/assets/imgaes/6-1.jpg") 
+          .price6
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY 
+          .main12
+            img(src="/assets/imgaes/6-2.jpg")      
       
-      .No8//- No.8
-        .images7
-        .with5
-        .frame4
+      .No7.clearfix
+        .logo4
+          img(src="/assets/imgaes/SVG/7_image.svg")
+        .images9
+          .main13
+            img(src="/assets/imgaes/7-1.jpg")
+          .main14
+            img(src="/assets/imgaes/7-2.jpg")
           .price7
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY 
+
+          .frame3
+            p 
+             |CHAMPION x Ray BEAMS /
+             br
+             |POCKET T-SHIRTS
+             br
+             |ダミー。デニムの強さが強調されすぎ
+             br
+             |ないようにインナーにレース使い＋足
+             br
+             |元はヒールと女性らしいアイテム。
+             br
+             |強調されすぎないように！
+            
+      
+      .No8.clearfix
+        .images7
+          .main22
+            img(src="/assets/imgaes/8-1.jpg")
+            .with5
+              img(src="/assets/imgaes/SVG/8-1_image.svg")
+        .frame4
+          .sentence5
+            p 
+             |NAME / Photo T-shirt
+             br
+             |ダミー。デニムの強さが強調されすぎ
+             br
+             |ないようにインナーにレース使い＋足
+             br
+             |元はヒールと女性らしいアイテム。
+             br
+             |強調されすぎないように！
+          .price8
+            .pd1
+              .product
+                ul
+                  |GILET(Ray BEAMS)
+                  br
+                  |¥12,000 +tax 
+              .buy
+                |BUY
+            .pd2
+              .product    
+                ul
+                  |ONE-PIECE(Chika Kisada)
+                  br
+                  |¥69,000 +tax 
+              .buy
+                |BUY
+            .pd3
+              .product
+                ul
+                  |HOODIE(Champion x Ray BEAMS)
+                  br
+                  |¥9,500 +tax 
+              .buy
+                |BUY
+            .pd4
+              .product    
+                ul
+                  |PIERCED EARRINGS(KLAMIR)
+                  br
+                  |¥6,500 +tax 
+              .buy
+                |BUY
+            .pd5
+              .product
+                ul
+                  |WAIST BAG(wiffle)
+                  br
+                  |¥5,000 +tax 
+              .buy
+                |BUY
+            .pd6
+              .product      
+                ul
+                  |SHOES(PLAKTON)
+                  br
+                  |¥9,800 +tax 
+              .buy
+                |BUY 
+          
         .sidephoto7
+         img(src="/assets/imgaes/8-2.jpg")
       
       .logo5
-    
-    .wrapper5
-      .main12
-      .frame5
-        .sentence4
-          .logo6
+       img(src="/assets/imgaes/SVG/last_image.svg")
+      
+      .gray
+        
+      .No10.clearfix
+        .main15
+          img(src="/assets/imgaes/SVG/smaph_image.svg")
+        .frame5
+          .sentence4
+            .logo6
+              img(src="/assets/imgaes/SVG/check_image.svg")
           .comment5
-        .share
-          .comment6
-          .logo7
-          .logo8
+            p
+              |スマートフォン版では、
+              br
+              |今シーズンのイメージビジュアルを編集可能
+              br
+              |自分だけのオリジナルを作ってシェアしよう！
+          .qr
+            img(src="/assets/imgaes/SVG/qr_image.svg")
+          .share
+            .comment6
+              p SHARE
+          .share2    
+            .logo7
+              img(src="/assets/imgaes/SVG/face tw_image.svg")
+                
+      .space
       
       .contents
+        .comment13
+          p CONTENTS
         .images8
-          .main12
+          .main16
            .first
+             img(src="/assets/imgaes/9-1.jpg")
            .comment7  
-          .main13
+          .main17
            .second
+             img(src="/assets/imgaes/9-2.jpg")
            .comment8
-          .main14
+          .main18
            .third
+             img(src="/assets/imgaes/9-3.jpg")
            .comment9
-          .main15
+          .main19
            .forth
+             img(src="/assets/imgaes/9-4.jpg")
            .comment10
-      
-      .main16
+        
+      .bottom
+        .main21
+          img(src="/assets/imgaes/last.jpg")
         .logo9
+          img(src="/assets/imgaes/SVG/rayrog_image.svg")
         .comment11
         .logo10
+          img(src="/assets/imgaes/SVG/chek smal_image.svg")
         .rink
           .rink1
+            p ▶︎ Ray Beams TOP
           .rink2
-          .rink3      
+            p ▶︎ SHOP LIST
+          .rink3   
+            p ▶︎ STAFF SNAP   
         .logo11 
-        .comment12 
-            
-        
-    
-    
+          img(src="/assets/imgaes/SVG/kakko_image.svg")
+        .comment12
+          p ©︎　2018 BEAMS Co., Ltd.
+          
+          
+      
+      
